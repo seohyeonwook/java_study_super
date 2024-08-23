@@ -20,4 +20,14 @@ public class FishChild extends Fish{
     public void setEatable(boolean eatable) {
         this.eatable = eatable;
     }
+
+    public void becomeDanger() {
+        this.havingPoison = true;
+    }
+
+    // 오버라이딩 - 부모클래스의 기존 행위를 수정 하고 싶을 때
+    @Override // 부모가 가지고 있는 행위를 내가 재정의  (바꾼다는 뜻)
+    void eat(String food) {
+        System.out.printf(myInfo() + "는 %s를 아주 열심히 먹고 있습니다. \n", food);
+    }
 }

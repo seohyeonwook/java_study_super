@@ -16,5 +16,16 @@ public class SeaSituation {
         fish2.printfMyInfo();
 
         fish2.digging();
+        fish2.setEatable(true);
+
+        System.out.println("---------------------------------");
+
+        fish2.becomeDanger();
+        System.out.println("독성여부: " + fish2.isHavingPoison());
+
+        //Override
+        fish1.eat("새우");
+        fish2.eat("새우");
+        System.out.println(fish2.isEatable());
     }
 }

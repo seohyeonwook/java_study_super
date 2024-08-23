@@ -4,14 +4,14 @@ package exercise.chapter_31;
 public class Fish {
     // 속성
     private String sex; // "Male", "Female"
-    private boolean havingPoison;
+    protected boolean havingPoison;
     private String StartSpawningDate; // 산란 시작 시각
     private String endSpawningDate; // 산란 종료 시각
     String leavingSea; // 사는 속성
 
     // 행위
     void eat(String food) {
-        System.out.printf("나, 물고기는 %s를 먹고 있습니다. \n", food);
+        System.out.printf(myInfo() + "는 %s를 먹고 있습니다. \n", food);
     }
     void swim(int meter) {
         System.out.println("나는 헤엄칩니다 미터: " + meter);
@@ -50,5 +50,9 @@ public class Fish {
 
     public void setLeavingSea(String leavingSea) {
         this.leavingSea = leavingSea;
+    }
+
+    public boolean isHavingPoison() {
+        return havingPoison;
     }
 }
