@@ -1,4 +1,4 @@
-package exercise.chapter_13;
+package exercise.chapter_13; // 자바 타입
 
 public class ExplicitCasting {
     public static void main(String[] args) {

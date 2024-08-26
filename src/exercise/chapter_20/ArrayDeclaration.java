@@ -1,4 +1,4 @@
-package exercise.chapter_20;
+package exercise.chapter_20; // 자바 Array
 
 import java.util.Arrays;
 

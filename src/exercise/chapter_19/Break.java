@@ -1,4 +1,4 @@
-package exercise.chapter_19;
+package exercise.chapter_19; // 자바 반복문
 
 public class Break {
     public static void main(String[] args) {

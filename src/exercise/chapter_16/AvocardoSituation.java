@@ -1,4 +1,4 @@
-package exercise.chapter_16;
+package exercise.chapter_16; // 자바 조건문
 
 public class AvocardoSituation {
     public static void main(String[] args) {

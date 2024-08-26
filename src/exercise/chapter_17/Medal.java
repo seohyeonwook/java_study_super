@@ -1,4 +1,4 @@
-package exercise.chapter_17;
+package exercise.chapter_17;// 자바 조건문
 
 public class Medal {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package exercise.chapter_29;
+package exercise.chapter_29; // 카페에서 생긴 일 실습
 
 // 시나리오 참고
 // 1. 바리스타 는 아메리카노 주문 확인을 알린다.

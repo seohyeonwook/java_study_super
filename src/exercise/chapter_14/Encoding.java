@@ -1,4 +1,4 @@
-package exercise.chapter_14;
+package exercise.chapter_14; // 자바 문자열
 
 public class Encoding {
     public static void main(String[] args) {

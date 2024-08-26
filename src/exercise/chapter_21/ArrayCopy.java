@@ -1,4 +1,4 @@
-package exercise.chapter_21;
+package exercise.chapter_21; // 다차원 Array
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package exercise.chapter_32.fish;
+package exercise.chapter_32;
 
 public class SeaSituation {
     public static void main(String[] args) {

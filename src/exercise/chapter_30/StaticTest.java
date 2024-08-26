@@ -1,4 +1,4 @@
-package exercise.chapter_30;
+package exercise.chapter_30; // static과 변수 유효범위
 
 public class StaticTest {
     public static void main(String[] args) {

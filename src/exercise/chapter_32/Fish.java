@@ -1,4 +1,4 @@
-package exercise.chapter_32.fish;
+package exercise.chapter_32; // 객체의 상속 extends
 
 
 public class Fish {

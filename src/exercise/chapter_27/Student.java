@@ -1,4 +1,4 @@
-package exercise.chapter_27;
+package exercise.chapter_27; // 자바 정보 은닉 (캡슐화)
 
 public class Student {
     // 속성 - 클래스 필드

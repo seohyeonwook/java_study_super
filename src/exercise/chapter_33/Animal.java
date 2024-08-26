@@ -1,4 +1,4 @@
-package exercise.chapter_33;
+package exercise.chapter_33; // 다형성 - 부모자식 간 형변환 다운캐스팅 업캐스팅
 
 public class Animal {
     // 속성

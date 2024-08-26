@@ -1,4 +1,4 @@
-package exercise.chapter_34;
+package exercise.chapter_34; // 객체 상속 실습 백화점 관리 시스템
 
 public class Customer {
     // 속성

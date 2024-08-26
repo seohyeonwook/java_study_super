@@ -1,4 +1,4 @@
-package exercise.chapter_18;
+package exercise.chapter_18; // 자바 반복문
 
 public class ForLoop {
     public static void main(String[] args) {

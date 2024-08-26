@@ -1,4 +1,4 @@
-package exercise.chapter_24;
+package exercise.chapter_24; // 자바 메소드
 
 public class MethodExamples {
 

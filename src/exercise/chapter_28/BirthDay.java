@@ -1,4 +1,4 @@
-package exercise.chapter_28;
+package exercise.chapter_28; // this
 
 public class BirthDay {
     private int year;

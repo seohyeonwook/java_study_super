@@ -1,4 +1,4 @@
-package exercise.chapter_26;
+package exercise.chapter_26; // 자바 클래스와 객체
 
 public class ClassroomDay {
     public static void main(String[] args) {
