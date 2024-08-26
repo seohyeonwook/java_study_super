@@ -1,4 +1,4 @@
-package exercise.chapter_31;
+package exercise.chapter_32.fish;
 
 
 public class Fish {
@@ -56,5 +56,16 @@ public class Fish {
         return havingPoison;
     }
 
+    Fish () {
 
+//        System.out.println("부모 클래스가 실행되고 있습니다");
+    }
+
+    public Fish(String sex, boolean havingPoison, String startSpawningDate, String endSpawningDate, String leavingSea) {
+        this.sex = sex;
+        this.havingPoison = havingPoison;
+        StartSpawningDate = startSpawningDate;
+        this.endSpawningDate = endSpawningDate;
+        this.leavingSea = leavingSea;
+    } // 생성자
 }
