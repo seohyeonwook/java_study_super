@@ -1,6 +1,6 @@
-package exercise.chapter_34;
+package exercise.chapter_43;
 
-public class GoldCustomer extends Customer{
+public class GoldCustomer extends Customer {
     private double discountRatio;// 구매 할인율
 
     @Override

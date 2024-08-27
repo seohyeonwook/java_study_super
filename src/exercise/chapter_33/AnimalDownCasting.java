@@ -4,7 +4,7 @@ public class AnimalDownCasting {
     public static void main(String[] args) {
          // 다운 캐스팅 확인여부
 
-        Animal animal = new Bird();
+        Animal animal = new Bird(); // 업캐스팅
 //        Bird bird = (Bird) animal;
         checkBirdAndFly(animal);
 
@@ -18,7 +18,7 @@ public class AnimalDownCasting {
     }
     static void checkBirdAndFly(Animal animal) {
         if( animal instanceof  Bird ) {
-            Bird bird = (Bird) animal;
+            Bird bird = (Bird) animal; // 다운캐스팅
             bird.fly();
         }
         else {

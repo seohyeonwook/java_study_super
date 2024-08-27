@@ -5,7 +5,7 @@ public class AnimalCasting {
         Animal[] animals = {
                 new Animal(), new Person(), new Person(), new Fish(), new Bird(),
                 new Person(), new Fish(), new Fish(), new Bird(), new Animal()
-        };
+        }; // 업캐스팅
         sleepTogether(animals);
         System.out.println("-----------------------");
 
@@ -24,6 +24,7 @@ public class AnimalCasting {
             if(animal instanceof Bird) { // 다운 캐스팅
                 Bird bird = (Bird) animal;
                 bird.fly();
+                // Bird가 업캐스팅해서 animal을
 
             } else if (animal instanceof Fish) {
                 Fish fish = (Fish) animal;

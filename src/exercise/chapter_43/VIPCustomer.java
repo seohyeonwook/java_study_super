@@ -1,4 +1,4 @@
-package exercise.chapter_34;
+package exercise.chapter_43;
 
 public class VIPCustomer extends Customer {
 
@@ -37,5 +37,13 @@ public class VIPCustomer extends Customer {
     public void printMyInfo() {
         System.out.print("VIP"); // VIP 붙이기
         super.printMyInfo();
+    }
+
+    @Override
+    public String toString() {
+        return "VIPCustomer{" +
+                "agentID='" + agentID + '\'' +
+                ", discountRatio=" + discountRatio +
+                '}';
     }
 }
