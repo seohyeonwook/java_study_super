@@ -1,4 +1,4 @@
-package exercise.chapter_54;
+package exercise.chapter_56; //1
 
 @FunctionalInterface // 람다식은 무조건 인터페이스에
 public interface MultipleNum {

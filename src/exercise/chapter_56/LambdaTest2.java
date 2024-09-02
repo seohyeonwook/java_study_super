@@ -1,8 +1,8 @@
-package exercise.chapter_54;
+package exercise.chapter_56;
 
-public class LambdaTest2 {
+public class LambdaTest2 { // 5
     public static void main(String[] args) {
-        MultipleNum multipleNum = new MultipleNum() {
+        MultipleNum multipleNum = new MultipleNum() { // 여긴 익명을 나타낸거 그냥 풀어서쓴거임  Test1보자
             @Override
             public int calculate(int num) {
                 return num * 1;

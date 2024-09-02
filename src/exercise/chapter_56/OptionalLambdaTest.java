@@ -1,9 +1,9 @@
-package exercise.chapter_54;
+package exercise.chapter_56;
 
 import java.util.Optional;
 import java.util.function.Supplier;
 
-public class OptionalLambdaTest {
+public class OptionalLambdaTest { // 9
     public static void main(String[] args) {
         String str = "abc";
         Optional<String> stringOptional  = Optional.ofNullable(str);

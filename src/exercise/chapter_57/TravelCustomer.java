@@ -1,6 +1,6 @@
-package exercise.chapter_55;
+package exercise.chapter_57;
 
-public class TravelCustomer {
+public class TravelCustomer { // 4
     private String name;
     private int age;
     private int price;

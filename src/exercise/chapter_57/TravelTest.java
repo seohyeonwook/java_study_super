@@ -1,16 +1,15 @@
-package exercise.chapter_55;
+package exercise.chapter_57;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class TravelTest {
+public class TravelTest { // 5
 
     public static void main(String[] args) {
 
         // List
         List<TravelCustomer> customers = new ArrayList<>();
-        customers.add(new TravelCustomer("아이유", 29, 200000));
+        customers.add(new TravelCustomer("아이유", 29, 200000)); // 이건 컬렉션 방법
         customers.add(new TravelCustomer("박보검", 28, 180000));
         customers.add(new TravelCustomer("송중기", 36, 250000));
         customers.add(new TravelCustomer("김태리", 32, 220000));
